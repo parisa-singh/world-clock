@@ -2,8 +2,9 @@
 
 A real-time world clock with a toggleable timezone table, dark mode, and responsive design, built with **HTML**, **CSS**, and **JavaScript**.
 
-![Screenshot of the World Clock](screenshot.png) <!-- Add a screenshot if you have one -->
-
+![World Clock (light mode)](world-clock-lightmode.png)
+![World Clock (dark mode)](world-clock-darkmode.png)
+![World Clock Timezone Table](world-clock-timezone-table.png)
 ---
 
 ## Features
