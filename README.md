@@ -1,11 +1,26 @@
-🌍 World Clock
-A simple web application that displays the current local time and allows users to view real-time clocks for multiple timezones around the world. Built with HTML, CSS, and JavaScript.
+# 🌍 World Clock
 
-Features
-Real-Time Clock: Displays the current local time in 12-hour format (e.g., 10:00:00 AM).
+A real-time world clock with a toggleable timezone table, dark mode, and responsive design, built with **HTML**, **CSS**, and **JavaScript**.
 
-Timezone Table: Shows the current time for multiple timezones around the world.
+![Screenshot of the World Clock](screenshot.png) <!-- Add a screenshot if you have one -->
 
-Dark Mode: Toggle between light and dark themes for better readability.
+---
 
-Responsive Design: Works on both desktop and mobile devices.
+## Features
+
+- **Real-Time Clock**: Displays the current local time in 12-hour format.
+- **Timezone Table**: Toggle to view real-time clocks for multiple timezones worldwide.
+- **Dark Mode**: Switch between light and dark themes for better readability.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+
+---
+
+## How to Use
+
+### Live Demo
+👉 [View Live Demo](https://parisa-singh.github.io/world-clock/)
+
+### Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/parisa-singh/world-clock.git
