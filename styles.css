@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the clock vertically */
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    padding-top: 20px;
+}
+
+.clock-container {
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for shifting */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clock {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: margin-bottom 0.3s ease-in-out; /* Smooth transition for spacing */
+}
+
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ee00ff;
+  }
+  
+  #theme-toggle {
+    position: fixed; 
+    top: 20px;
+    right: 20px;
+  }
+  
+  #timezone-table-button {
+    margin-top: 20px;
+  }
+  
+  .timezone-table {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* Ensure the table takes full width */
+    max-width: 1000px; /* Increase max-width to fit more columns */
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto; /* Add horizontal scroll for small screens */
+}
+
+.timezone-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timezone-table th,
+.timezone-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.timezone-table th {
+    background-color: #f4f4f4;
+}
+
+/* Dark Mode Styles for the table */
+body.dark-mode .timezone-table {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .timezone-table th {
+    background-color: #444;
+}
+
+body.dark-mode .timezone-table td {
+    border-color: #555;
+}
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-mode button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .menu-item {
+    background-color: #444;
+    color: #fff;
+  }
+
+  
